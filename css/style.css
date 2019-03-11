@@ -1,0 +1,61 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/image1.jpg');
+}
+
+.profile-pic {
+    width: 100%;
+}
+
+.custom-navbar {
+  height: 56px;
+}
+
+.custom-navbar * {
+  color: white!important;
+}
+
+.cv-container {
+  height: calc(100% - 100px);
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.nav-item.active {
+  border-bottom: 1px solid white;
+}
+
+li.nav-item {
+    margin: 2rem;
+    font-size: 30px;
+}
+.service-content {
+  height: 400px;
+    overflow: auto;
+}
+.service-content img {
+  width: 75px;
+}
+
+.footer{
+  color:white;
+  padding: 0 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer i {
+  font-size: large;
+    padding: 0 1em;
+    line-height: unset;
+}
+
+.bd-example{
+  width:100%;
+}
+
+.container{
+color: white;
+}
